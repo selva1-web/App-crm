@@ -17,12 +17,13 @@ export const GitHubBanner = () => {
       style={{
         width: "100%",
         height: "48px",
+        display: "none",
       }}
     >
       <div
         style={{
           position: "relative",
-          display: "flex",
+          display: "none",
           justifyContent: "center",
           alignItems: "center",
           width: "100%",
@@ -47,7 +48,7 @@ export const GitHubBanner = () => {
               position: "relative",
               width: "960px",
               height: "100%",
-              display: "flex",
+              display: "none",
               justifyContent: "space-between",
               margin: "0 auto",
             }}

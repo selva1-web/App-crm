@@ -36,6 +36,7 @@ export const Title: React.FC<RefineLayoutThemedTitleProps> = ({
       >
         <div
           style={{
+            display: "none",
             height: "24px",
             width: "24px",
             color: token.colorPrimary,
